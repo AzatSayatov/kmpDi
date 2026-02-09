@@ -31,6 +31,7 @@ import org.koin.core.context.KoinContext
 @Composable
 @Preview
 fun App() {
+    //changing git mail
     MaterialTheme {
         KoinContext {
             val viewModel = koinViewModel<MyViewModel>()
